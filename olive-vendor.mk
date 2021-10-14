@@ -6,14 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/olive
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -21,6 +13,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_General_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Global_cal.acdb \
@@ -42,13 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Bluetooth_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_General_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Global_cal.acdb \
@@ -57,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Headset_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb \
     vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp \
+    vendor/xiaomi/olive/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
@@ -67,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wt_ov13b10_gc2375hw.bin \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wt_ov13b10_ov02a10.bin \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wt_s5k2l7_gc2375hw.bin \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx214_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx230_qc2002_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_qc2002_chromatix.xml \
@@ -80,8 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx298_gt24c64_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_gt24c64_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx362_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix_bear.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx362_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx362_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix_bear.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx362_gt24c64a_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_gt24c64a_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx376_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx376_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_chromatix.xml \
@@ -89,10 +89,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_samsung_s5k2l7_ii_in.xml \
@@ -101,16 +101,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx363_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx363_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_down_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_samsung_s5k2l7_ii_in.xml \
@@ -119,16 +119,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx363_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx363_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_4x_up_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_omnivision_13b10_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_omnivision_13b10_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_samsung_s5k2l7_ii_in.xml \
@@ -137,63 +137,63 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx363_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx363_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_morpho_hht_params_sony_imx486_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_morpho_hht_params_sony_imx486_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_i_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_i_gl.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_ii_in.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_i_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_omnivision_8856_i_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_gl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_gl.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_in.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/new_vdclear_hht_params_samsung_s5k4h7_iii_in.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_arc_hdr_params_i.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_factory.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_india_plus.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_plus.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_factory.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_india_plus.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_plus.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_factory.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_india.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_india_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1_sunny_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1_sunny_chromatix_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_factory.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_india.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_india_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc02m1b_sunny_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc02m1b_sunny_chromatix_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc2375_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc2375_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc2375_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc2375_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc2375_sunny_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc2375_sunny_chromatix_plus.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_gc2375_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_gc2375_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx363_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx363_qtech_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx363_qtech_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx363_qtech_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx363_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx363_qtech_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx363_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx363_qtech_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_ofilm_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_ofilm_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_sunny_chromatix_factory.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_ofilm_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_sunny_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_factory.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_india_plus.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_imx486_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_imx486_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_factory.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_india.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_india_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_india_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov02a10_ofilm_chromatix_plus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov02a10_ofilm_chromatix_plus.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_ofilm_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_ofilm_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_ofilm_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_ofilm_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_qtech_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_qtech_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_qtech_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_qtech_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov13b10_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov13b10_qtech_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_qtech_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_qtech_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_qtech_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_qtech_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_qtech_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_sunny_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_ov8856_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_ov8856_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k2l7sx_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k2l7sx_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k2l7sx_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k2l7sx_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k2l7sx_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k2l7sx_sunny_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k2l7sx_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k2l7sx_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix_india.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/ov12a10_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_bear_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/ov13850_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_chromatix.xml \
@@ -217,8 +217,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3m2xm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3m3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
@@ -229,15 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
     vendor/xiaomi/olive/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/olive/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libactuator_olive_dw9714_imx363_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9714_imx363_qtech.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libactuator_olive_dw9714_ov13b10_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9714_ov13b10_ofilm.so \
@@ -245,173 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libactuator_olive_dw9763_imx486_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9763_imx486_ofilm.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libactuator_olive_dw9763_imx486_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_dw9763_imx486_sunny.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libactuator_olive_fp5510_ov13b10_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_olive_fp5510_ov13b10_qtech.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_default_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_common.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_ds_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_common.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_ds_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_postproc.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_common.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_ds_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_common.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_ds_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_postproc.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_postproc.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_common.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_ds_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_default_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_60.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_postproc.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_postproc.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so \
@@ -423,15 +247,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_a3_default_video.so \
@@ -447,8 +271,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_factory_hfr_60.so \
@@ -474,15 +298,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_hfr_60.so \
@@ -499,15 +323,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_hfr_60.so \
@@ -515,23 +339,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_plus_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_india_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_india_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_a3_default_preview.so \
@@ -545,15 +369,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_hfr_60.so \
@@ -561,24 +385,191 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_plus_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_snapshot_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_snapshot_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_snapshot_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_snapshot_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_zsl_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_zsl_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_zsl_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_zsl_preview_2and3.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_zsl_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_default_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_common.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_ds_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_us_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_cpp_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_common.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_ds_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_us_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_cpp_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_factory_zsl_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_common.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_ds_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_us_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_cpp_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_common.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_ds_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_us_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_cpp_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_plus_zsl_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_india_zsl_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_common.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_ds_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_us_chromatix.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_cpp_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_120.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_plus_zsl_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_snapshot_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_snapshot_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_video_full.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_1and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_preview_2and4.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc02m1b_sunny_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1b_sunny_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_a3_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_a3_hfr_120.so \
@@ -593,8 +584,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_a3_default_video.so \
@@ -610,8 +601,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_factory_hfr_60.so \
@@ -641,8 +632,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_gc2375_sunny_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc2375_sunny_plus_hfr_60.so \
@@ -666,8 +657,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_ds_chromatix.so \
@@ -676,16 +667,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_1080p_preview_3a.so \
@@ -698,30 +689,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_downscale.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_hdr.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_snapshot_upscale.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_video_4k.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_video_hdr.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_default_preview_3a.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_default_video_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_default_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_default_video_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_fullsize_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_fullsize_video_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hdr_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hdr_snapshot_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hdr_video_3a.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_120_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_120.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_240_3a.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_120_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_240.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_60_3a.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_240_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_60.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_hfr_60_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_video_4k.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_factory_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_factory_video_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_hfr_120.so \
@@ -733,8 +724,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_ds_chromatix.so \
@@ -743,16 +734,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx363_qtech_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx363_qtech_india_hfr_120.so \
@@ -784,8 +775,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_ds_chromatix.so \
@@ -794,16 +785,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_a3_bokeh_zsl_preview.so \
@@ -812,8 +803,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_ds_chromatix.so \
@@ -822,14 +813,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_ofilm_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_ofilm_factory_hfr_120.so \
@@ -864,8 +855,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_ds_chromatix.so \
@@ -874,16 +865,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_a3_bokeh_zsl_preview.so \
@@ -892,8 +883,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_ds_chromatix.so \
@@ -902,14 +893,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_imx486_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_imx486_sunny_factory_hfr_120.so \
@@ -949,13 +940,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot_2and1.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_a3_default_video.so \
@@ -971,8 +962,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_factory_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_factory_hfr_60.so \
@@ -998,13 +989,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot_2and1.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_hfr_60.so \
@@ -1021,13 +1012,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot_2and1.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_hfr_60.so \
@@ -1035,19 +1026,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_plus_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_india_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_a3_default_preview.so \
@@ -1061,13 +1052,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_liveshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot_2and1.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_hfr_60.so \
@@ -1075,31 +1066,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_plus_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_postproc.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_preview.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_snapshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_snapshot_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_snapshot_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_video_full.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_zsl_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov02a10_ofilm_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov02a10_ofilm_zsl_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_bokeh_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_ds_chromatix.so \
@@ -1107,20 +1098,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_bokeh_zsl_preview.so \
@@ -1129,8 +1120,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_ds_chromatix.so \
@@ -1139,16 +1130,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_factory_hfr_120.so \
@@ -1168,16 +1159,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_bokeh_zsl_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_ds_chromatix.so \
@@ -1185,20 +1176,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_hfr_120.so \
@@ -1207,10 +1198,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_pano_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_india_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_india_video_weixin.so \
@@ -1220,10 +1211,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_pano_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_preview_2and1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_preview_2and1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_preview_2and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_preview_2and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_preview_2and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_preview_2and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_ofilm_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_ofilm_video_weixin.so \
@@ -1236,10 +1227,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview_3a.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_ds_chromatix.so \
@@ -1247,19 +1238,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_a3_bokeh_zsl_preview.so \
@@ -1268,8 +1259,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_ds_chromatix.so \
@@ -1278,16 +1269,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_factory_hfr_120.so \
@@ -1312,10 +1303,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_a3_hfr_90.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview_3a.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_ds_chromatix.so \
@@ -1323,19 +1314,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_liveshot.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_hfr_120.so \
@@ -1344,9 +1335,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_pano_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_india_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_india_video_weixin.so \
@@ -1356,9 +1347,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_pano_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_postproc.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_preview_1and3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_preview_1and3.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_preview_1and4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_preview_1and4.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov13b10_qtech_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov13b10_qtech_video_weixin.so \
@@ -1377,10 +1368,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_default_video.so \
@@ -1424,10 +1415,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_qtech_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_qtech_india_default_video.so \
@@ -1458,10 +1449,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_default_video.so \
@@ -1505,10 +1496,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_ov8856_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_ov8856_sunny_india_default_video.so \
@@ -1533,8 +1524,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_ds_chromatix.so \
@@ -1543,16 +1534,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_bokeh_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_bokeh_zsl_preview.so \
@@ -1561,8 +1552,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_ds_chromatix.so \
@@ -1571,14 +1562,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_factory_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_factory_hfr_120.so \
@@ -1603,8 +1594,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_120.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_60.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_a3_hfr_90.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_preview_3a.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_bokeh_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_common.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_ds_chromatix.so \
@@ -1613,16 +1604,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht_down.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_down.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht_down.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_snapshot_zoom_hht_down.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_us_chromatix.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_full.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_cpp_video_weixin.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_default_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k2l7sx_sunny_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k2l7sx_sunny_india_hfr_120.so \
@@ -1660,10 +1651,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_default_video.so \
@@ -1707,10 +1698,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_hfr_90.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_liveshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_preview.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_bokeh.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_hdr.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot_hht.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_us_chromatix.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_cpp_video.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_india_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_india_default_video.so \
@@ -1729,25 +1720,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_snapshot.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_zsl_preview.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libchromatix_olive_s5k4h7_sunny_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_s5k4h7_sunny_zsl_video.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_gc02m1b_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1b_sunny.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_gc02m1_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1_sunny.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_gc02m1b_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1b_sunny.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_gc2375_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc2375_sunny.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx363_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx363_qtech_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx363_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx363_qtech.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_ofilm_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_ofilm_eeprom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx363_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx363_qtech_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_ofilm.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_sunny_eeprom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_ofilm_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_ofilm_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_sunny.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_imx486_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_imx486_sunny_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov02a10_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov02a10_ofilm.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_ofilm_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_ofilm_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_ofilm.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_qtech_eeprom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_ofilm_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_ofilm_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_qtech.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_qtech_eeprom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov13b10_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov13b10_qtech_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_qtech.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_sunny_eeprom.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_qtech_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_sunny.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_ov8856_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_ov8856_sunny_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_s5k2l7_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_s5k2l7_sunny_eeprom.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_s5k2l7sx_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_s5k2l7sx_sunny.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_s5k4h7_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_s5k4h7_sunny.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_s5k4h7_sunny_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_s5k4h7_sunny_eeprom.so \
-    vendor/xiaomi/olive/proprietary/vendor/lib/libmmcamera_olive_s5k4h7_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_s5k4h7_sunny.so
+    vendor/xiaomi/olive/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
